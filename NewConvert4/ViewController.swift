@@ -9,6 +9,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     var selectedRow: Int = 0
     var json: JSON? = nil
     
+    @IBOutlet weak var pair: UILabel!
     @IBOutlet weak var result: UILabel!
     //    @IBOutlet weak var pickerView: UIPickerView!
     //    @IBOutlet weak var outputLabel: UILabel!
